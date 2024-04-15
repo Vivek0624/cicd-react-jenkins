@@ -5,7 +5,7 @@ pipeline {
         stage("Clone") {
             steps {
                 sh 'echo 1'
-                git branch: 'main', url: 'https://github.com/Shubhamraut01/React-S3-Deploy.git'
+                git branch: 'main', url: 'https://github.com/Vivek0624/cicd-react-jenkins.git'
                 sh 'echo 2'
             }
         }
