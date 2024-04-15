@@ -20,15 +20,15 @@ pipeline {
         stage("Build") {
             steps {
                 sh 'echo 5'
-                sh 'npm run build'
+                sh 'sudo npm run build'
                 sh 'echo 6'
             }
         }
         stage("Deploy") {
             steps {
                 sh 'echo 7'
-                sh 'rm -rf /var/www/html/*'
-                sh 'cp -r dist/* /var/www/html'
+                sh 'sudo rm -rf /var/www/html/*'
+                sh 'sudo cp -r dist/* /var/www/html'
                 sh 'echo 8'
             }
         }
