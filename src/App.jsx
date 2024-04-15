@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h4>Helloo from Vivek </h4>
+      <h4>Helloo from Vivek</h4>
     </>
   );
 }
